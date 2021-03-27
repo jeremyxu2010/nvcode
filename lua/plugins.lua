@@ -46,6 +46,7 @@ return require('packer').startup(function(use)
     use 'ChristianChiarulli/html-snippets'
     use 'ChristianChiarulli/java-snippets'
     use 'ChristianChiarulli/python-snippets'
+    use 'neoclide/coc.nvim'
 
     -- Treesitter
     use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}

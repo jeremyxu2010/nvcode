@@ -58,6 +58,8 @@ require('lsp.docker-ls')
 require('lsp.html-ls')
 require('lsp.efm-general-ls')
 require('lsp.virtual_text')
+require('lsp.go-ls')
+require('lsp.rust-ls')
 
 -- Source config last
 -- vim.lsp.callbacks["textDocument/publishDiagnostics"] = function() end
